@@ -1,3 +1,5 @@
+// The User Function
+
 <?php
     session_start();
     include_once "config.php";
