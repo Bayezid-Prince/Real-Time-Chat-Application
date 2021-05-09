@@ -11,10 +11,12 @@
                 session_destroy();
                 header("location: ../login.php");
             }
-        }else{
+        }
+        else{
             header("location: ../users.php");
         }
-    }else{  
+    }
+else{  
         header("location: ../login.php");
     }
 ?>
